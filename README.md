@@ -5,8 +5,8 @@
 > *Exmaple Tileset https://v3x3d.itch.io/bountiful-bits - VEXED
 
 ## What does it do?
-generates singlton tiles some an with fixed tile sizes
-works bests on tight tile sets
+generates single tile tileset from an image with fixed tile sizes
+works bests on tilesets with few gaps
 
 ## **Setup**
 
@@ -21,18 +21,21 @@ works bests on tight tile sets
 ```
 
 ```
-You'll find the exported tileset in you user:// dir
+You'll find the exported tileset in your user:// dir
 ```
 | OS | PATH |
 | ------ | ------ |
 | **Windows:** | %APPDATA%\Godot\
 | **macOS:** | ~/Library/Application Support/Godot/
 | **Linux:** | ~/.local/share/godot/
+
+
 [GODOT DOCS][PlGd]
 
 
-if you want you can use the tilemap node in the project to test you're new tileset or simply drag and drop it int your own project
+if you want you can use the tilemap node in the project to test you're new tileset or simply drag and drop it into your own project
 
 
+-
 
    [PlGd]: <https://docs.godotengine.org/en/3.4/tutorials/io/data_paths.html>
